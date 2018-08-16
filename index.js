@@ -22,7 +22,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  return[]
+  return["Arnold",...kittens]
 }
 
 function removeLastKitten() {
